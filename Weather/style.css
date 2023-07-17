@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(204, 197, 197);
+}
+.box {
+    width: 90%;
+    max-width: 480px;
+    background:linear-gradient(145deg,purple,lightblue);
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+}
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input {
+    height: 40px;
+   border-radius: 16px;
+    width: auto;
+    border: 0;
+    outline: 0;
+    padding-left: 14px;
+    font-size: 16px;
+}
+.search input::placeholder {
+    padding-left: 12px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    border-radius: 42%;
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+   
+} 
+.search button img {
+    width: 20px;
+}
+.icon {
+    width: 160px;
+    margin-top: 30px;
+}
+.icon h1 {
+    font-size: 30px;
+}
+
+.icon h2 {
+    font-size: 20px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.details img {
+    width: 60px;
+}
+
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.col img {
+   margin-right: 15px;
+   width: 45px;
+}
+
+.city {
+    font-size: 40px;
+}
+.wind, .humidity {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
